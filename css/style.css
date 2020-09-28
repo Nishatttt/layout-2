@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    overflow: hidden;
+
+}
+.logo{
+    height: 100px;
+    width:20%;
+    text-align: center;
+    color: black;
+    background-color: #f981bc;
+    float: left;
+}
+.logo h1{
+    padding-top: 30px;
+}
+.logo:hover{
+    background-color: pink;
+}
+.banner{
+    height: 100px;
+    width:80%;
+    text-align: center;
+    color: black;
+    background-color:aqua;
+    float: right;
+
+}
+.banner h1{
+    padding-top: 30px;
+}
+.banner:hover{
+    background-color: rgb(55, 74, 77);
+}
+.content{
+    overflow: hidden;
+}
+.left{
+    height: 400px;
+    width:20%;
+    text-align: center;
+    color: black;
+    background-color:rgb(44, 248, 44);
+    float: left;
+
+}
+.left h2{
+    padding-top: 150px;
+}
+.left:hover{
+    background-color: rgb(117, 218, 117);
+    color: red;
+}
+.middle{
+    height: 400px;
+    width:60%;
+    background-color:brown;
+    float:left;
+    overflow: hidden;
+  
+}
+.right{
+    height: 400px;
+    width:20%;
+    text-align: center;
+    color: black;
+    background-color:#d61e4e;
+    float: right;
+}
+.right h2{
+    padding-top: 150px;
+}
+.right:hover{
+    background-color: #f78eaa;
+    color: red;
+}
+.top{
+    text-align: center;
+    background-color: #773e4d;
+    height: 30%;
+}
+.top h3{
+    padding-top:50px;
+}
+.top:hover{
+    background-color: #f8c3d1;
+}
+.center{
+
+    height: 40%;
+    overflow: hidden;
+}
+.bottom{
+    text-align: center;
+    background-color: coral;
+    height: 30%;
+}
+.bottom h3{
+    padding-top: 50px;
+}
+.bottom:hover{
+    background-color: rgb(248, 174, 147);
+
+}
+
+.center-left{
+    background-color: darkcyan;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.center-right{
+    background-color: darkolivegreen;
+    height: 100%;
+    width: 50%;
+    float: right;
+}
